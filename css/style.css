@@ -387,6 +387,7 @@ li {
   body {
     font-size: 13px;
     line-height: 1.7;
+    margin-top:90px;
   }
 
   .pc-only {
@@ -508,6 +509,9 @@ li {
   /* フッター */
   .footer {
     padding: 20px;
+    width: -webkit-fill-available;
+    position:absolute;
+    bottom:0;
   }
 
   /* 下層ページ */
